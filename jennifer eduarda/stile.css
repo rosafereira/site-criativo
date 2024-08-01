@@ -20,11 +20,55 @@ body {
     padding: o;
 }
      
--principal { 
+.principal { 
     background-image: urL("imagem/Background-png");
-    
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
 }
  
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50;
+}
+
+.container_botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--barco-principal);
+    display: block;
+    text-decoration: 1em;
+    margin-bottom: 1em;
+}
+
+.botao__secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal)
+}
+
+.container_aviso {
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+
+.container__titulo {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
